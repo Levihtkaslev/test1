@@ -9,7 +9,7 @@ app.use(cors());
 
 
 
-/* app.listen(4000, () => { console.log("Server connected in 4000 port")}); */
+app.listen(4000, () => { console.log("Server connected in 4000 port")}); 
 
 mongoose.connect("mongodb+srv://sakthivelveld13:0ga3GmgjJZ1V1ZO2@mypros.7qwoi.mongodb.net/mydatabase?retryWrites=true&w=majority")
   .then(() => {
